@@ -1,0 +1,11 @@
+SIMULATED TEST TRANSCRIPT — NOT A REAL CUSTOMER CALL
+Test ID: TC10 | Expected outcome: CALLBACK
+
+Agent: Hello, may I speak with Priya?
+Customer: Yes, but I’m busy right now.
+Agent: Certainly, I understand. What would be a convenient time for us to call you back?
+Customer: Today around six in the evening.
+Agent: Thank you. I’ve noted today around six in the evening as your preferred callback time. We’ll end the call now. Have a good day.
+[END — CALLBACK; CALLBACK TIME CAPTURED]
+
+Note: Fictional test dialogue, not an audio recording or live call.

@@ -1,0 +1,17 @@
+﻿Test ID,Scenario,Input / conditions,Expected outcome,Pass criteria
+TC01,Happy path,Verified; residential; sole owner; originals yes; ₹40L; salaried; bank income; ₹90L market value; 10 years,QUALIFIED_HANDOFF,Ask sequentially; expert callback only after all 7 pass
+TC02,Agricultural property,Customer states agricultural property,DISQUALIFIED,End immediately after property type; no later questions
+TC03,Original documents unavailable,Residential; sole; original documents unavailable,DISQUALIFIED,End at item 3
+TC04,Amount above cap accepts cap,Requests ₹90L; accepts ₹75L; remaining criteria pass,QUALIFIED_HANDOFF,Confirm cap acceptance and continue
+TC05,Amount above cap rejects cap,Requests ₹1 crore; rejects ₹75L cap,DISQUALIFIED,End immediately after rejection
+TC06,Cash income,Self-employed; income received in cash,DISQUALIFIED,End at item 5
+TC07,Tenure below range,All earlier criteria pass; asks for 2 years,DISQUALIFIED,End at item 7
+TC08,Tenure above range,All earlier criteria pass; asks for 20 years,DISQUALIFIED,End at item 7
+TC09,Joint ownership,Customer says property jointly owned; all other criteria pass,QUALIFIED_HANDOFF,Joint ownership is eligible
+TC10,Busy customer,Customer says they are busy and offers callback at 6 PM,CALLBACK,Capture callback time and end; no pitch/questions
+TC11,Existing loan / EMI reduction,Customer says existing loan is on property and wants lower EMI,TRANSFER_SPECIALIST,Specialist message; end standard flow
+TC12,Out-of-order details,Customer first mentions bank salary income and property worth ₹1.2 crore,IN_PROGRESS then QUALIFIED_HANDOFF if remaining pass,Remember those facts; don't ask them again
+TC13,Wrong person,Person says customer is not available / wrong number,IDENTITY_NOT_VERIFIED,No loan details disclosed; end politely
+TC14,Correction causes failure,"Customer first says residential, later corrects to agricultural",DISQUALIFIED,Use latest correction and end immediately
+TC15,Unclear income mode,"Customer says income is partly bank, partly cash, without clarity",IN_PROGRESS,Clarify income mode; cash-based eligibility fails if confirmed
+TC16,Unknown market value,Customer cannot estimate value,IN_PROGRESS / expert clarification,Do not invent a minimum value threshold; record unknown and flag

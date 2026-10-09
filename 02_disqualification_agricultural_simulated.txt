@@ -1,0 +1,13 @@
+SIMULATED TEST TRANSCRIPT — NOT A REAL CUSTOMER CALL
+Test ID: TC02 | Expected outcome: DISQUALIFIED
+
+Agent: Hello, may I speak with Ravi?
+Customer: Yes, speaking.
+Agent: Thank you, Ravi. I’m calling from Home Credit about a possible Loan Against Property offer of up to ₹75 lakh for valued customers. I’d like to ask a few questions to check whether it may suit you.
+Customer: Sure.
+Agent: What type of property would you like to use for the loan—residential, commercial, industrial, or agricultural?
+Customer: Agricultural land.
+Agent: Thank you for sharing that. Based on the criteria for this particular offer, we’re unable to proceed with this offer at the moment. Thank you for your time.
+[END — DISQUALIFIED; NO FURTHER ELIGIBILITY QUESTIONS]
+
+Note: Fictional test dialogue, not an audio recording or live call.

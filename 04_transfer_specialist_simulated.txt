@@ -1,0 +1,11 @@
+SIMULATED TEST TRANSCRIPT — NOT A REAL CUSTOMER CALL
+Test ID: TC11 | Expected outcome: TRANSFER_SPECIALIST
+
+Agent: Hello, may I speak with Ravi?
+Customer: Yes, speaking.
+Agent: Thank you, Ravi. I’m calling from Home Credit about a possible Loan Against Property offer of up to ₹75 lakh for valued customers.
+Customer: I already have a loan on this property. I want to reduce my EMI.
+Agent: Thank you for clarifying. This would need to be handled by our loan-transfer specialist. A specialist will contact you shortly about the available options.
+[END — TRANSFER_SPECIALIST; STANDARD CHECKLIST STOPPED]
+
+Note: Fictional test dialogue, not an audio recording or live call.

@@ -1,0 +1,25 @@
+SIMULATED TEST TRANSCRIPT — NOT A REAL CUSTOMER CALL
+Test ID: TC01 | Expected outcome: QUALIFIED_HANDOFF
+
+Agent: Hello, may I speak with Priya?
+Customer: Yes, this is Priya.
+Agent: Thank you, Priya. I’m Alex calling from Home Credit. We’re reaching out because you’re one of our valued customers. You may be eligible for a special Loan Against Property offer of up to ₹75 lakh. I’d like to ask a few questions to check whether this offer may suit you.
+Customer: Okay.
+Agent: What type of property would you like to use for the loan—residential, commercial, industrial, or agricultural?
+Customer: My residential house.
+Agent: Is the property solely owned by you, or is it jointly owned?
+Customer: Solely mine.
+Agent: Are the original property documents available?
+Customer: Yes, I have them.
+Agent: Approximately how much would you like to borrow?
+Customer: Around forty lakh rupees.
+Agent: Are you salaried or self-employed, and does your income come through a bank account or in cash?
+Customer: I’m salaried, and my salary comes into my bank account.
+Agent: What is the approximate current market value of the property?
+Customer: Around ninety lakh rupees.
+Agent: What loan tenure would you prefer, in years?
+Customer: Ten years.
+Agent: Thank you. Based on the preliminary details you’ve shared, I’ll arrange for a senior loan expert to call you shortly. They’ll explain the exact interest rate and discuss the next steps. This is a preliminary qualification, not final loan approval.
+[END — QUALIFIED_HANDOFF]
+
+Note: This is a fictional test dialogue created to demonstrate expected behavior. It is not an audio recording or evidence of a live platform call.
